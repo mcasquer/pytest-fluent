@@ -1,0 +1,30 @@
+# Catalog entry for Backstage [backstage.io]
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: pytest-fluent
+  title: pytest-fluent
+  description: pytest-fluent is a Python package in order to extend pytest using Fluentd for logging test results.
+
+  links:
+    - title: pypi
+      url: https://pypi.org/project/pytest-fluent/
+    - title: code
+      url: https://github.com/mcasquer/pytest-fluent
+      icon: github
+  tags:
+    - python
+    - pytest
+    - plugin
+    - test-framework
+    - test-execution
+    - public
+  namespace: quality-community
+  annotations:
+    github.com/project-slug: mcasquer/pytest-fluent
+    backstage.io/techdocs-ref: https://github.com/mcasquer/pytest-fluent/blob/main/README.md
+    feedback/email-to: 'mcasquer@redhat.com'
+spec:
+  type: plugin
+  owner: group:redhat/satellite-qe
+  lifecycle: production
