@@ -26,5 +26,5 @@ metadata:
     feedback/email-to: 'mcasquer@redhat.com'
 spec:
   type: plugin
-  owner: group:redhat/satellite-qe
+  domain: quality-community/quality-community
   lifecycle: production
